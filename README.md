@@ -1,7 +1,9 @@
 # acesso-multi-banco
 
-node -v
-docker -v
+1. Instalações necessárias
+> node -v
+> docker -v
 
-docker build -t "conteiner name" .
-docker run -p 3000:3000 -d "conteiner name"
+2. Rodar na pasta do projeto:
+> docker build -t "conteiner name" .
+> docker run -p 3000:3000 -d "conteiner name"
