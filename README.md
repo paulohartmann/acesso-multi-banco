@@ -1,9 +1,12 @@
 # acesso-multi-banco
 
 1. Instalações necessárias
-> node </br>
-> docker </br>
+
+   > node </br>
+   > docker </br>
+   > docker-compose</br>
 
 2. Rodar na pasta do projeto:
-> docker build -t "conteiner name" .</br>
-> docker run -p 3000:3000 -d "conteiner name"
+   > docker-compose up -d</br>
+   > _and_ </br>
+   > docker-compose down (para derrubar)</br>
